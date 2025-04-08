@@ -1,11 +1,16 @@
-sentence-transformers==2.2.2
-langchain
 flask
-pypdf
-python-dotenv
-pinecone[grpc]
-langchain-pinecone
+langchain
 langchain_community
-langchain_openai
 langchain_experimental
+langchain_google_genai
+langchain_pinecone
+pinecone-client[grpc]
+sentence-transformers==2.2.2
+transformers==4.21.2
+tokenizers==0.11.6
+huggingface_hub==0.16.4
+python-dotenv
+pypdf
 -e .
+
+
